@@ -1,3 +1,7 @@
+/*
+Theme Name: Cidade Alternativa
+*/
+
 /*Header */
 /*
 
@@ -21,8 +25,12 @@ vermelho - #d83442
 }
 
 #bglogo{
-    width: 100%;
-    background-repeat: repeat-x;
+background-image: url("img/image2.png");
+    background-repeat: no-repeat;
+    max-height: 130px;
+    background-position-y: 50%;
+    background-position-x: 4%;
+    background-size: 7%;
 }
 .banner {
     width: 100%;
@@ -32,7 +40,7 @@ vermelho - #d83442
     height: 50px;
 }
 .menu-top{
-    font-size:18px;
+    text-transform: uppercase;
 }
 span{
     color: #f8a034;
@@ -60,7 +68,7 @@ span{
     -moz-box-sizing: border-box;
 }
 .box img{
-    width: 100%;
+    min-height: 170px !important;
 }
 .box p{
     text-align: left;
@@ -76,7 +84,18 @@ p{
     margin-bottom: 2%;
 
 }
-.sidebar p {
+.widgettitle{
+
+}
+article ul,
+article li{
+    background: #d83442 !important;
+}
+article li{
+    list-style: none !important;
+
+}
+article .sidebar p {
     margin: 9%;
     word-wrap: break-word;
 }
@@ -99,5 +118,17 @@ p{
 }
 /* Footer*/
 
+/*
+Carousel
+*/
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    max-height: 444px !important;
+    overflow: hidden;
+}
 
-
+.container-conteudo img{
+    width: 100% !important;
+    height: auto;
+}

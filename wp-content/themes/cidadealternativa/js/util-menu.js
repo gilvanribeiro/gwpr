@@ -1,6 +1,8 @@
 menu();
 var numeroUL = $('ul').length;
 menu(numeroUL);
+
+barra();
 function menu(numeroUl){
     var ul = $('ul');
     for(var i=1; i < numeroUl;i++){
@@ -16,4 +18,14 @@ function menu(numeroUl){
             console.log($(ul[i]).addClass('sub-menu-' + (i-12)));
         }
     }
+}
+
+function barra(){
+    var ul= $('article ul');
+
+        console.log($(ul[0]).removeClass('sub-menu-'+(1)));
+        console.log($(ul[1]).removeClass('sub-menu-'+(2)));
+        console.log($(ul[2]).removeClass('sub-menu-'+(3)));
+
+
 }
