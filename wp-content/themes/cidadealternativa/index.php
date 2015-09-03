@@ -12,7 +12,7 @@
             <?php query_posts('showposts=1')?>
             <?php if(have_posts()): while(have_posts()):the_post();?>
                 <div class="item active">
-                    <a href="<?php the_permalink();?>"><?php the_post_thumbnail('teste');?></a>
+                    <a href="<?php the_permalink();?>"><?php the_post_thumbnail();?></a>
                     <div class="carousel-caption">
                         <h4><?php the_title();?></h4>
                         <p><?php the_excerpt();?></p>
@@ -29,7 +29,7 @@
             <?php query_posts('showposts&offset=1')?>
             <?php if(have_posts()): while(have_posts()):the_post();?>
                 <div class="item ">
-                    <a href="<?php the_permalink();?>"><?php the_post_thumbnail('teste');?></a>
+                    <a href="<?php the_permalink();?>"><?php the_post_thumbnail();?></a>
                     <div class="carousel-caption">
                         <h4><?php the_title();?></h4>
                         <p><?php the_excerpt();?></p>

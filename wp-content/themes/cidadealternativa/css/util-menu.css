@@ -2,10 +2,15 @@
 .navbar-default {
     background-color: #3D9EA9;
     border-color: #3D9EA9;
+    font-family : Verdana;
+    font-weight : 500;
+    font-size : 12pt;
+    line-height : 18pt;
 }
 .navbar{
     margin-bottom: 5px !important;
     word-wrap: break-word;
+    
 }
 /*Alteração*/
 .navbar-nav > li> .dropdown-menu{

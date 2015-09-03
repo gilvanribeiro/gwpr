@@ -1,5 +1,10 @@
 /*
-Theme Name: Cidade Alternativa
+Theme Name: CIDADE E ALTERIDADE
+Theme URI: http://www.cidadeealteridade.com.br/
+Author: Gilvan Wemerson
+Author URI: https://fb.com/gwpr7
+Description: Tema : Cidade e Alteridade
+Version: 1.0.0
 */
 
 /*Header */
@@ -12,8 +17,10 @@ azul - #3d9ea9
 vermelho - #d83442
 
 */
+
 .hmenu{
     margin-top: 1%;
+    color: #fff;
 }
 .hmenu li{
     display: inline;
@@ -25,7 +32,7 @@ vermelho - #d83442
 }
 
 #bglogo{
-background-image: url("img/image2.png");
+    background-image: url("img/image2.png");
     background-repeat: no-repeat;
     max-height: 130px;
     background-position-y: 50%;
@@ -48,11 +55,7 @@ span{
 }
 
 /*Header */
-/*Carousel*/
-.carousel-inner img{
-    width: 100%;
-}
-/*Carousel*/
+
 /*Conteudo*/
 .container-conteudo{
     margin-top: 0.7%;
@@ -112,23 +115,26 @@ article .sidebar p {
     padding-bottom: 2%;
     margin-top: 1%;
 }
+
+.footer{
+    background-color: #3D9EA9;
+    margin-top: 1%;
+    position: absolute;
+    width: 100%;
+}
 .container-footer .navbar-text{
     margin-top: 3%;
 
 }
 /* Footer*/
 
-/*
-Carousel
-*/
-.carousel-inner {
-    position: relative;
+/*Carousel*/
+.carousel-inner .item a img{
     width: 100%;
     max-height: 444px !important;
-    overflow: hidden;
 }
-
 .container-conteudo img{
     width: 100% !important;
     height: auto;
 }
+
