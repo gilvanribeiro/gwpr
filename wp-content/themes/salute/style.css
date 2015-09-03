@@ -1,0 +1,649 @@
+ /*
+Theme Name: Salute Alimentação Saudável
+Theme URI: http://www.salute.com/
+Author: Guilherme Tonioli
+Author URI: https://fb.com/gtonioli
+Description: Tema Salute Alimentação Saudável
+Version: 1.0.0
+*/
+body {
+	background: #e9e9e9;
+}
+
+/* Fonts */
+@font-face {
+	font-family: "Quintessence SSi Italic";
+	src: url('fonts/quintessence-ssi-italic.eot');
+	src: url('fonts/quintessence-ssi-italic.eot?#iefix') format('embedded-opentype'),
+	url('fonts/quintessence-ssi-italic.woff') format('woff'),
+	url('fonts/quintessence-ssi-italic.ttf') format('truetype'),
+	url('fonts/quintessence-ssi-italic.svg#QuintessenceSSiItalic') format('svg');
+}
+
+@font-face {
+	font-family: "Myriad Pro Regular";
+	src: url('fonts/myriad-pro-regular.eot');
+	src: url('fonts/myriad-pro-regular.eot?#iefix') format('embedded-opentype'),
+	url('fonts/myriad-pro-regular.woff') format('woff'),
+	url('fonts/myriad-pro-regular.ttf') format('truetype'),
+	url('fonts/myriad-pro-regular.svg#MyriadPro-Regular') format('svg');
+}
+
+@font-face {
+	font-family: "Myriad Pro Semibold";
+	src: url('fonts/myriad-pro-semibold.eot');
+	src: url('fonts/myriad-pro-semibold.eot?#iefix') format('embedded-opentype'),
+	url('fonts/myriad-pro-semibold.woff') format('woff'),
+	url('fonts/myriad-pro-semibold.ttf') format('truetype'),
+	url('fonts/myriad-pro-semibold.svg#MyriadPro-Semibold') format('svg');
+}
+
+@font-face {
+	font-family: "Helvetica Neue Medium";
+	src: url('fonts/helvetica-neue-medium.eot');
+	src: url('fonts/helvetica-neue-medium.eot?#iefix') format('embedded-opentype'),
+	url('fonts/helvetica-neue-medium.woff') format('woff'),
+	url('fonts/helvetica-neue-medium.ttf') format('truetype'),
+	url('fonts/helvetica-neue-medium.svg#HelveticaNeue-Medium') format('svg');
+}
+
+@font-face {
+	font-family: "Helvetica Neue Bold";
+	src: url('fonts/helvetica-neue-bold.eot');
+	src: url('fonts/helvetica-neue-bold.eot?#iefix') format('embedded-opentype'),
+	url('fonts/helvetica-neue-bold.woff') format('woff'),
+	url('fonts/helvetica-neue-bold.ttf') format('truetype'),
+	url('fonts/helvetica-neue-bold.svg#HelveticaNeue-Bold') format('svg');
+}
+/* Fim Fonts */
+
+/* Header */
+header {
+	background: #fff;
+}
+
+.navbar {
+	border-radius: 0;
+}
+
+.notext {
+	font-size: 0;
+	line-height: 0;
+	text-indent: -9999px;
+}
+
+.navbar-collapse {
+	padding: 0;
+}
+
+.navbar-nav>li>a {
+	font-family: "Quintessence SSi Italic";
+	color: #9cae1f;
+	padding-top: 0;
+	padding-bottom: 0;
+	padding-left: 0;
+	padding-right: 0;
+	padding-bottom: 7px;
+}
+
+.nav>li>a:hover, .nav>li>a:focus {
+	background-color: transparent;
+}
+/* Fim Header */
+
+/* Páginas */
+.content {
+	background: #fff;
+	padding-bottom: 35px;
+}
+/* Fim Páginas */
+
+/* Home */
+.fundo {
+	height: auto;
+}
+
+.fundo .container {
+	padding: 0;
+}
+
+.carousel-description {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	background: #fff;
+	padding-left: 30px;
+	padding-right: 45px;
+	padding-top: 15px;
+}
+
+.carousel-description h1, .carousel-description h2 {
+	margin-top: 0;
+	margin-bottom: 0;
+	color: #aa143e;
+	font-family: "Arial";
+}
+
+.carousel-description h1 {
+	font-size: 36px;
+}
+
+.carousel-description h2 {
+	font-size: 24px;
+}
+
+.carousel-descriptio-control {
+	float: right;
+	padding-top: 20px;
+}
+
+.carousel-descriptio-control a {
+	font-family: "Helvetica Neue Bold";
+	color: #c1d346;
+	font-size: 10px;
+	background: #aa143e;
+	padding: 5px 8px;
+	cursor: pointer;
+}
+
+.home {
+	border-top: 3px solid #aa143e;
+}
+
+.home h1, .o-salute h1, .programa-detox h1, .sucos-funcionais h1, .blog h1, .contato h1 {
+	font-family: "Quintessence SSi Italic";
+	color: #aa143e;
+	font-size: 38px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.sucos h1 {
+	padding-bottom: 20px;
+}
+
+.programa {
+	font-family: "Myriad Pro Regular";
+	font-size: 14px;
+}
+
+.programa h1 {
+	padding-bottom: 20px;
+}
+
+.programa a {
+	display: block;
+	color: #c1d346;
+}
+
+.home .blog-box {
+	background: #aa143e;
+	width: 100%;
+	padding: 10px;
+	margin-top: 10px;
+}
+
+.home .blog-box .row {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.home .blog-box .blog-box-img {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.home .blog-box .blog-box-texto a {
+	font-family: "Myriad Pro Regular";
+	color: #ffffff;
+}
+
+.home .imc {
+	font-family: "Myriad Pro Regular";
+}
+
+.home .imc h1 {
+	font-family: "Myriad Pro Regular";
+	color: #a9bc2b;
+	font-size: 28px;
+	margin-bottom: 0;
+}
+
+.home .imc span {
+	color: #fc9026;
+	font-size: 14px;
+}
+
+.home .imc span a {
+	color: #62b5de;
+	font-size: 10px;	
+}
+
+.home .calcular span {
+	color: #000;
+}
+
+.home .calcular .linha {
+	margin-bottom: 5px;
+}
+
+.home .calcular .linha .linha-titulo {
+	min-width: 85px;
+	text-align: right;
+	display: inline-block;
+}
+
+.home .calcular .linha input {
+	max-width: 55px;
+}
+
+.home .calculado span {
+	font-size: 14px;
+	color: #000;
+	display: none;
+}
+
+.home .rede-social h2 {
+	font-family: "Helvetica Neue Medium";
+	color: #c1d346;
+	margin-top: 0;
+	font-size: 18px;
+}
+
+.home .rede-social .avatar {
+	float: left;
+	width: 50px;
+	height: 25px;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.home .rede-social .rs-btns {
+	display: inline-block;
+}
+
+.home .rede-social .rs-btns > div {
+	float: left;
+	margin-left: 10px;
+	margin-top: 15px;
+}
+
+.newsletter span {
+	font-family: "Myriad Pro Regular";
+	font-size: 14px;
+}
+
+.newsletter input {
+	font-size: 12px;
+	width: 100%;
+}
+
+.newsletter a {
+	background: #aa143e;
+	font-family: "Helvetica Neue Bold";
+	color: #fff;
+	padding: 5px;
+}
+/* Fim Home */
+
+/* Carousel Suco */
+.carousel-suco .carousel-suco-description {
+	float: left;
+	max-width: 180px;
+}
+
+.carousel-suco .carousel-suco-description span {
+	color: #c1d346;
+	font-family: "Myriad Pro Regular";
+	font-size: 19px;
+	padding-bottom: 10px;
+}
+
+.carousel-suco .carousel-suco-description p {
+	font-family: "Myriad Pro Regular";
+	font-size: 14px;
+}
+
+.carousel-suco .carousel-suco-img {
+	float: right;
+}
+
+.carousel-suco .carousel-suco-img img {
+	max-width: 49px;
+}
+
+.carousel-suco .carousel-control {
+	background: none;
+	color: #c1d346;
+	opacity: 1;
+	filter: alpha(opacity=100);
+	width: auto;
+	text-shadow: none;
+}
+
+.carousel-suco .carousel-control .glyphicon-chevron-left, .carousel-suco .carousel-control .glyphicon-chevron-right, 
+	.carousel-suco .carousel-control .icon-prev, .carousel-suco .carousel-control .icon-next {
+	margin-left: 0;
+}
+
+.carousel-suco .carousel-inner .item {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+/* Fim Carousel Suco */
+
+/* Banner */
+.banner.container {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.banner {
+	border-bottom: 6px solid #aa143e;
+}
+
+.banner .banner-vazio {
+	background: #c1d346;
+	width: 100%;
+	height: 210px;
+	border-top: 6px solid #b1c141;
+	border-bottom: 6px solid #b1c141;
+}
+/* Fim Banner */
+
+/* O Salute */
+.o-salute section, .programa-detox section, .sucos-funcionais section, .contato section {
+	margin-top: 35px;
+	max-width: 600px;
+	color: #231f20;
+	font-family: "Myriad Pro Regular";
+	font-size: 14px;
+}
+
+.o-salute .unidades {
+	margin-top: 40px;
+}
+
+.o-salute .unidades .unidade {
+	display: inline-block;
+	margin-bottom: 30px;
+}
+
+.o-salute .unidades .unidade .foto {
+	float: left;
+	background: #868384;
+	width: 110px;
+	height: 110px;
+	margin-right: 30px;
+}
+
+.o-salute .unidades .unidade .foto img {
+	width: 110px;
+	height: 110px;	
+}
+
+.o-salute .unidades .unidade .info {
+	float: left;
+}
+
+.o-salute .unidades .unidade span {
+	font-family: "Myriad Pro Regular";
+	display: block;
+}
+
+.o-salute .unidades .unidade .nome {
+	color: #aa143e;
+}
+/* Fim O Salute */
+
+/* Programa Detox */
+.programa-detox table {
+	background: #be143e;
+	border-color: #efc5cf;
+	font-size: 12px;
+}
+
+.programa-detox table tr th {
+	width: 100px;
+	text-align: center;
+	color: #c1d346;
+}
+
+.programa-detox table tr .first {
+	width: 75px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.programa-detox table tr td {
+	text-align: center;
+	color: #efc5cf;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-weight: bold;
+}
+
+.programa-detox .kcal {
+	color: #aa143e;
+}
+
+.programa-detox .atencao {
+	font-family: "Myriad Pro Regular";
+	background: #efefef;
+	color: #aa143e;
+	border: 2px solid #aa143e;
+	padding: 10px 30px;
+	margin-top: 50px;
+}
+
+.programa-detox .atencao span {
+	display: block;
+}
+/* Programa Detox */
+
+/* Sucos Funcionais */
+.sucos-funcionais .sucos {
+	margin-top: 30px;
+}
+
+.sucos-funcionais .sucos .row {
+	margin-bottom: 30px;
+	margin-top: 30px;
+	display: inline-block;
+}
+
+.sucos-funcionais .sucos .suco .img {
+	float: left;
+}
+
+.sucos-funcionais .sucos .suco .info {
+	float: left;
+	font-family: "Myriad Pro Regular";
+	margin-left: 30px;
+}
+
+.sucos-funcionais .sucos .suco .info .titulo {
+	color: #fc9026;
+	font-size: 19px;
+}
+
+.sucos-funcionais .sucos .suco .info .texto {
+	font-size: 14px;	
+}
+/* Fim Sucos Funcionais */
+
+/* Contato */
+.contato form span {
+	display: block;
+	margin-top: 15px;
+	font-family: "Myriad Pro Regular";
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.contato form input, .contato form textarea {
+	width: 100%;
+}
+
+.contato form textarea {
+	min-height: 100px;
+}
+
+.contato form .enviar {
+	float: right;
+	width: auto;
+	background: #aa143e;
+	color: #fff;
+	border: 0;
+}
+
+.contato .message-ok {
+	margin-top: 25px;
+	font-size: 20px;
+}
+/* Fim Contato */
+
+/* Blog */
+.post {
+	border-top: 20px solid #c1d346;
+	margin-bottom: 30px;
+	clear: both;
+}
+
+.post .data {
+	margin-left: 20px;
+}
+
+.post .dia {
+	background: #770e2c; /* Old browsers */
+	background: -moz-linear-gradient(top, #770e2c 0%, #aa143e 20%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#770e2c), color-stop(20%,#aa143e)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #770e2c 0%,#aa143e 20%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #770e2c 0%,#aa143e 20%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #770e2c 0%,#aa143e 20%); /* IE10+ */
+	background: linear-gradient(to bottom, #770e2c 0%,#aa143e 20%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#770e2c', endColorstr='#aa143e',GradientType=0 ); /* IE6-9 */
+	font-family: "Quintessence SSi Italic";
+	font-size: 40px;
+	color: #fefefe;
+	display: inline-block;
+	padding-left: 5px;
+	padding-right: 15px;
+}
+
+.post .mes-ano {
+	font-family: "Quintessence SSi Italic";
+	color: #fefefe;
+	font-size: 27px;
+	color: #aa143e;
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.post .post-content {
+	margin-top: 20px;
+	font-family: "Myriad Pro Regular";
+}
+
+.post .post-content .title a {
+	color: #aa143e;
+}
+
+.post .post-content .title {
+	margin-bottom: 10px;
+}
+
+.post .post-content img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+
+.share {
+	padding-top: 25px;
+	display: inline-block;
+	float: right;
+	padding-bottom: 40px;
+}
+
+.share>div {
+	float: left;
+}
+
+.share .fb {
+	width: 160px; 
+}
+/* Fim Blog */
+
+/* Footer */
+footer {
+	background: #c1d346;
+	min-height: 163px;
+	font-size: 13px;
+	color: #aa143e;
+	font-family: "Myriad Pro Regular";
+	width: 100%;
+}
+
+footer .row>div {
+	padding-bottom: 20px;
+}
+
+.telefone {
+	font-family: "Myriad Pro Semibold";
+	background: url('images/telefone.png') no-repeat;
+	padding-left: 15px;
+}
+
+.menu-footer {
+	list-style: none;
+}
+
+.menu-footer>li>a {
+	color: #aa143e;
+	font-family: "Myriad Pro Regular";
+}
+
+.rs-icon {
+	background: url("images/redes-sociais.png") no-repeat;
+	width: 26px;
+	height: 26px;
+	display: block;
+	float: left;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.fb {
+	background-position: 0 0;
+}
+
+.twitter {
+	background-position: -26px 0;
+}
+
+.instagram {
+	background-position: -52px 0;
+}
+
+.copyright {
+	clear: both;
+	display: block;
+}
+
+.anis {
+	padding-top: 30px;
+	float: right;
+}
+
+.anis a {
+	background: url("images/anis.png") no-repeat;
+	width: 27px;
+	height: 13px;
+	display: block;
+}
+/* Fim Footer */

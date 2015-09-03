@@ -1,0 +1,27 @@
+@media ( min-width : 1201px) {
+	.container {
+		width: 1022px;
+		padding-left: 52px;
+		padding-right: 52px;
+	}
+
+	/* Content */
+	.col-lg-8.conteudo {
+		width: 72.99%;
+	}
+
+	.col-lg-4.sidebar {
+		width: 27.01%;
+	}
+	/* Fim Content */
+
+	/* Footer */
+	.news {
+		width: 464px;
+	}
+	/* Fim Footer */
+}
+
+@media ( max-width : 1200px) {
+
+}

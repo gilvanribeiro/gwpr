@@ -1,0 +1,54 @@
+@media ( min-width : 993px) {
+	/* Header */
+	header.container {
+		padding-left: 35px;
+		padding-right: 35px;
+	}
+
+	.nav {
+		margin-left: 30px;
+	}
+
+	.navbar-nav>li>a {
+		margin-left: 10px;
+		margin-right: 10px;
+		font-size: 22px;
+	}
+	/* Fim Header */
+
+	/* Home */
+	.home, .o-salute, .programa-detox, .sucos-funcionais, .contato {
+		padding-left: 35px;
+		padding-right: 35px;
+		padding-top: 40px;
+	}
+
+	.newsletter input {
+		max-width: 200px;
+	}
+	/* Fim Home */
+
+	/* Carousel Suco */
+	.carousel-suco .carousel-suco-description {
+		max-width: 150px
+	}
+	/* Fim Carousel Suco */
+
+	/* Sucos Funcionais */
+	.sucos-funcionais .sucos .suco .info {
+		max-width: 200px;
+	}
+	/* Fim Sucos Funcionais */
+
+	/* Footer */
+	footer .container {
+		padding-left: 35px;
+		padding-right: 35px;
+		padding-top: 25px;
+	}
+	/* Fim Footer */
+}
+
+@media ( max-width : 992px) {
+	
+}

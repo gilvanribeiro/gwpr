@@ -1,0 +1,158 @@
+@media ( min-width : 768px) {
+	html {
+		position: relative;
+		min-height: 100%;
+	}
+
+	body {
+		margin-bottom: 163px;
+	}
+	/* Header */
+	header {
+		min-height: 157px;
+	}
+
+	header.container {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.navbar {
+		border: 0;
+		margin-top: 37px;
+		margin-bottom: 0;
+	}
+
+	.nav {
+		margin-top: 35px;
+		margin-left: 10px;
+	}
+
+	.navbar-nav>li>a {
+		margin-left: 5px;
+		margin-right: 5px;
+		font-size: 16px;
+	}
+
+	.logo {
+		width: 166px;
+		height: 90px;
+		background: url(../images/salute-alimentacao-saudavel-logo.png) no-repeat left transparent;
+	}
+
+	header .current-menu-item a {
+		border-bottom: 4px solid #aa143e;
+	}
+	/* Fim Header */
+
+	/* Home */
+	.home, .o-salute, .programa-detox, .sucos-funcionais, .contato  {
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-top: 20px;
+	}
+
+	.home .rede-social h2 {
+		max-width: 210px;
+	}
+
+	.home .row-1 {
+		padding-bottom: 40px;
+	}
+
+	.newsletter input {
+		max-width: 150px;
+	}
+	/* Fim Home */
+
+	/* Carousel Suco */
+	.carousel-suco .carousel-suco-description {
+		max-width: 100px
+	}
+	/* Fim Carousel Suco */
+
+	/* Sucos Funcionais */
+	.sucos-funcionais .sucos .suco .info {
+		max-width: 130px;
+	}
+	/* Fim Sucos Funcionais */
+
+	/* Footer */
+	footer {
+		max-height: 163px;
+		position: absolute;
+		bottom: 0;
+	}
+
+	footer .container {
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-top: 15px;
+	}
+	/* Fim Footer */
+}
+
+@media ( max-width : 767px) {
+	.col-xs-12 {
+		padding-top: 10px;
+		padding-bottom: 15px;
+	}
+
+	/* Header */
+	.navbar {
+		margin-bottom: 0;
+	}
+
+	.navbar-toggle {
+		background-color: #aa143e;
+	}
+
+	.icon-bar {
+		background-color: #fff;
+	}
+
+	.navbar-nav {
+		margin: 0;
+	}
+
+	.logo {
+		width: 90px;
+		height: 34px;
+		background: url(../images/salute-alimentacao-saudavel-logo-smnall.png) no-repeat left transparent;
+		margin-top: 8px;
+	}
+	/* Fim Header */
+
+	/* Home */
+	.carousel-description {
+		display: none;
+	}
+
+	.newsletter a {
+		display: block;
+		text-align: center;
+		margin-top: 5px;
+	}
+	/* Fim Home */
+
+	/* Sucos Funcionais */
+	.sucos-funcionais .sucos .suco {
+		padding-bottom: 20px;
+	}
+
+	.sucos-funcionais .sucos .row {
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+
+	.sucos-funcionais .sucos .suco .info {
+		max-width: 180px;
+	}
+	/* Fim Sucos Funcionais */
+
+	/* Footer */
+	footer .container {
+		padding-top: 15px;
+	}
+	/* Fim Footer */
+}

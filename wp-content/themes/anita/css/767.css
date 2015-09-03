@@ -1,0 +1,47 @@
+@media ( min-width : 768px) {
+	/* Header */
+	.navbar-nav>li>a {
+		padding-top: 4px;
+		padding-bottom: 0px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	/* Fim Header */
+
+	/* Footer */
+	.news {
+		width: 260px;
+	}
+	/* Fim Footer */
+}
+
+@media ( max-width : 767px) {
+	/* Content */
+	.conteudo {
+		padding-right: 0;
+	}
+
+	.sidebar {
+		padding-left: 0;
+	}
+	/* Fim Content */
+
+	/* Footer */
+	footer {
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+
+	footer .row {
+		padding-top: 0;
+	}
+
+	.anis {
+		padding-top: 15px;
+	}
+
+	footer .row>div {
+		margin-top: 10px;
+	}
+	/* Fim Footer */
+}

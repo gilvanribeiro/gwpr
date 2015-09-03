@@ -1,0 +1,15 @@
+@media ( min-width : 1201px) {
+	.container {
+		width: 1009px;
+	}
+
+	/* Header */
+	.nav {
+		margin-left: 40px;
+	}
+	/* Fim Header */
+}
+
+@media ( max-width : 1200px) {
+
+}
