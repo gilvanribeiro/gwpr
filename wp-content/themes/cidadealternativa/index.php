@@ -61,10 +61,10 @@
             <?php query_posts('showposts=1')?>
             <?php if(have_posts()): while(have_posts()):the_post();?>
             <div class="pull-left col-md-6 col-xs-12 ">
-                <strong>
                     <a href="<?php the_permalink();?>"> <?php the_title();?></a>
-                    <?php the_excerpt();?>
-                </strong>
+                <div style="margin-top:2%;">
+                    <span><?php the_excerpt();?></span>
+                </div>
             </div>
             <div class="pull-right col-md-6 col-xs-12 " >
                 <a href="<?php the_permalink();?>"><?php the_post_thumbnail();?></a>
@@ -85,10 +85,8 @@
             <?php query_posts('showposts=3')?>
             <?php if(have_posts()): while(have_posts()):the_post();?>
                 <div class="col-md-4 col-sm-4 col-xs-12 box ">
-
-
                     <a href="<?php the_permalink();?>"><?php the_post_thumbnail();?></a>
-                    <footer >
+                    <footer style="margin-top: 4%;">
                         <strong>
                                <?php the_excerpt();?>
                         </strong>
