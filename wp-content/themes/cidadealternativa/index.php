@@ -93,7 +93,7 @@
                     </footer>
                 </div>
 
-            <?php endwhile; else:?>
+            <?php  endwhile; else:?>
                 <header>
                     <strong>
                         Nenhum Pos Encontrado

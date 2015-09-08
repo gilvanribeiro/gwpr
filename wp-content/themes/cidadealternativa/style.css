@@ -88,11 +88,13 @@ p{
 }
 
 .sidebar{
-    text-align: center;
+    text-align: center !important;
     min-height: 74px;
     background: #d83442;
     margin-bottom: 2%;
-
+}
+.sidebar p{
+    text-align: center;
 }
 .widgettitle{
 
