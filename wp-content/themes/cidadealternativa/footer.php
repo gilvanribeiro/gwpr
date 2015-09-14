@@ -24,8 +24,12 @@
                 <img src="<?php echo bloginfo('template_directory')?>/img/image10.png">
             </div>
             <div class="pull-left col-md-5 col-sm-5 col-xs-12">
-                <img src="<?php echo bloginfo('template_directory')?>/img/footer.png" class="img-responsive">
-                <?php var_dump(get_theme_mod('rodape_detalhe'));?>
+                <p>Cidade e Alteridade</p>
+                <p> Endereço: Av. João Pinheiro, 100 - Prédio I - 5º
+                    andar - Centro (Faculdade de Direito UFMG) Belo
+                    Horizonte - 30130180 - Brasil
+                    e-mail: contato@cidadeealteridade.com.br
+                </p>
             </div>
         </div>
     </div>

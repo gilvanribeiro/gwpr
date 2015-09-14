@@ -1,6 +1,6 @@
 
 
-<article class="row col-md-3 col-xs-3 pull-right" style="margin: 0;padding: 0; text-transform: uppercase">
+<article class="row col-md-3 col-xs-3 pull-right hidden-xs" style="margin: 0;padding: 0; text-transform: uppercase">
 
     <div  class="sidebar col-md-12 col-xs-12">
         <p ><a href="#">Cultura de Rua</a></p>

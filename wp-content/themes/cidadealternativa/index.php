@@ -1,5 +1,5 @@
 <?php get_header();?>
-    <div class="container-fluid">
+    <div class="container">
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
             <!--
@@ -9,7 +9,7 @@
             -->
             <!-- Wrapper for slides -->
             <div class="carousel-inner" role="listbox">
-            <?php query_posts('showposts=1')?>
+            <?php query_posts('category_name=destaque')?>
             <?php if(have_posts()): while(have_posts()):the_post();?>
                 <div class="item active">
                     <a href="<?php the_permalink();?>"><?php the_post_thumbnail();?></a>
@@ -20,13 +20,13 @@
                 </div><!-- item -->
             
             <?php endwhile; wp_reset_postdata(); else:?>
-                <div class="item">
-                    <strong>Nenhum Post Encontrado</strong>
-                </div>
-            </div>
+                <div class="item active">
+                    <img src="<?php echo bloginfo('template_directory') ?>/img/post-not.png">
+                 </div>
+             </div>
             <?php endif;?>
                                     <!-- Primeiro Carousel tem que receber a classe active-->
-            <?php query_posts('showposts&offset=1')?>
+            <?php query_posts('category_name=destaque&offset=1')?>
             <?php if(have_posts()): while(have_posts()):the_post();?>
                 <div class="item ">
                     <a href="<?php the_permalink();?>"><?php the_post_thumbnail();?></a>
@@ -35,11 +35,7 @@
                         <p><?php the_excerpt();?></p>
                     </div>
                 </div><!-- item -->
-
-            <?php endwhile; wp_reset_postdata(); else:?>
-            <div class="item">
-                <strong>Nenhum Post Encontrado</strong>
-            </div>
+            <?php endwhile; wp_reset_postdata();?>
         </div>
         <?php endif;?>
             <!-- Left and right controls -->
@@ -55,7 +51,7 @@
     </div>
 
 
-    <div class="container-fluid container-conteudo">
+    <div class="container container-conteudo">
 
         <div class="row col-md-9 col-xs-9" style="margin: 0;padding: 0;">
             <?php query_posts('showposts=1')?>
@@ -88,7 +84,7 @@
                     <a href="<?php the_permalink();?>"><?php the_post_thumbnail();?></a>
                     <footer style="margin-top: 4%;">
                         <strong>
-                               <?php the_excerpt();?>
+                               <?php the_title();?>
                         </strong>
                     </footer>
                 </div>
