@@ -1,16 +1,15 @@
 <?php
 require_once('wp_bootstrap_navwalker.php');
-function cidade_e_alteridade()
-{
+
     register_nav_menus(array(
         'primary' => __('Primary Menu', 'Cidade Alteridade'),
         'sidebar' => __('Sidebar Navigation', 'Cidade Alternativa'),
     ));
-}
+
 add_theme_support('post-thumbnails');
 add_image_size('teste',444,444,true);
 register_sidebars();
-
+/*
 function teste($wp_customize)
 {
     $wp_customize->add_section('primeira_cor', array(
@@ -57,5 +56,5 @@ function rodapet($wp_customize)
 }
 add_action('customize_register','rodapet');
 add_action('customize_register','teste');
-
+*/
 ?>

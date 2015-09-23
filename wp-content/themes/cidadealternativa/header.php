@@ -25,14 +25,14 @@
 <div class="container">
     <div class=" container-header">
         <ol class="hmenu pull-right">
-            <li>e-mail</li>
-            <li>forum</li>
+            <li><a href="https://webmail.cidadeealteridade.com.br/">e-mail</a></li>
+            <li><a href="#">forum</a></li>
         </ol>
     </div>
 </div>
 
 <div class="container" id="bglogo">
-    <img src="<?php echo bloginfo('template_directory') ?>/img/bannercidlogo-01.png" class="banner">
+    <img src="<?php echo bloginfo('template_directory') ?>/img/banner.png" class="banner">
 </div>
 <div class="container">
     <nav class="navbar navbar-default menu-top" style="border-radius:0">
