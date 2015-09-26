@@ -2,7 +2,9 @@ menu();
 var numeroUL = $('ul').length;
 menu(numeroUL);
 
-barra();
+$(".dropdown-toggle").append("&nbsp;<i class='fa fa-hand-o-right'></i>");
+
+//$("span").removeClass("fa fa-hand-o-right");
 function menu(numeroUl){
     var ul = $('ul');
     for(var i=1; i < numeroUl;i++){
@@ -19,8 +21,8 @@ function menu(numeroUl){
         }
     }
 }
-//console.log($("[data-toggle=dropdown]").addClass('caret'));
 
+/*
 function barra(){
     var ul= $('article ul');
 
@@ -29,4 +31,4 @@ function barra(){
         console.log($(ul[2]).removeClass('sub-menu-'+(3)));
 
 
-}
+}*/

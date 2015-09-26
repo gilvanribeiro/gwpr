@@ -156,4 +156,7 @@ a{
     white-space: normal !important;
 }
 
+ul .dropdown-menu a{
+    max-width: 400px !important;
+}
 /* navbar */
